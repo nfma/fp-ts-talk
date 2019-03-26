@@ -1,6 +1,6 @@
 import { TaskEither } from "fp-ts/lib/TaskEither"
 
-export type Params = { [k: string]:  string }
+export type Params = { [k: string]: string }
 
 export type Request<A> = {
     params: Params,

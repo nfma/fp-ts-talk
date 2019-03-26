@@ -1,7 +1,7 @@
 import * as express from "express"
-import { get } from "./router"
 import { handlerAdapter } from "./handlerAdapter"
 import { indexHandler } from "./indexHandler"
+import { get } from "./router"
 import { wikipediaHandler } from "./wikipediaHandler"
 
 export const app: express.Application = express()

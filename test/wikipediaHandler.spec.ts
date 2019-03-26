@@ -1,6 +1,6 @@
-import { assert, string as fsString, property } from "fast-check"
-import { extractor } from "../src/wikipediaHandler"
+import { assert, property, string as fsString } from "fast-check"
 import { right } from "fp-ts/lib/Either"
+import { extractor } from "../src/wikipediaHandler"
 
 describe("extractor", () =>  {
     it("should always return right when params has the property", () => {
